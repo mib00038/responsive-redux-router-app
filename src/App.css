@@ -2,37 +2,34 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.lavender {
+  color: #9795FF;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.deep-blue {
+  color: #1600FF;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bg-concrete {
+  background-color: #F2F2F2
 }
 
-.App-link {
-  color: #61dafb;
+.menu-button.MuiButton-root {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cursor-default {
+  cursor: default;
 }
+
+.mui-container.MuiContainer-root {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.add-task-button.MuiButton-root {
+  border-radius: 1rem;
+}
+
+.header-shadow { box-shadow: 0 5px 5px -5px rgba(17, 17, 17, 0.5); }

@@ -1,0 +1,3 @@
+export const ADD_TASK = 'ADD_TASK'
+export const UPDATE_TASK = 'UPDATE_TASK'
+export const UPDATE_DEVICE_SIZE = 'UPDATE_DEVICE_SIZE'
